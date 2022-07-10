@@ -17,12 +17,12 @@ overcome myself and strive to be the best version of me.
 
 2. Desciplined
 - I do really need to work on my decipline after all im not really good at taking care of my surrounding. i need to build a self-displine rules:
-	. Archieve long term goal
-	. Decrease anxiety
-	. Increase physical health
-	. Positively impact relationships
-	. Become more resilient
-	. Feel happier
-	. Everythin clean
-	. Writing diary everyday
-	. Alots of reading as much as possible
+  - Archieve long term goal
+  - Decrease anxiety
+  - Increase physical health
+  - Positively impact relationships
+  - Become more resilient
+  - Feel happier
+  - Everythin clean
+  - Writing diary everyday
+  - Alots of reading as much as possible
