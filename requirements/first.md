@@ -1,0 +1,5 @@
+- [] Gain a strong solid programming background in Rust or Master Rust
+- [] Good knowledge of Polkadot, Bitcoin, Ethereum or other blockchain technologies
+- [] Computer science 101 with self-study
+- [] Being able to write testable code
+- [] Ability to communicate effectively in English
