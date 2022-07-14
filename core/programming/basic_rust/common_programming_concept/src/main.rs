@@ -1,5 +1,8 @@
 fn main() {
-    let spaces = "  ";
-    let spaces = spaces.len();
-    println!("{}", spaces);
+    let y = {
+        let x = 3;
+        x + 1
+    };
+
+    println!("The value of y is: {y}");
 }
