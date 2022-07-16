@@ -48,16 +48,25 @@
 // }
 
 //! Example 2 Without struct
-#[derive(Debug)]
-enum IpAddrKind {
-    v4(String),
-    v6(String),
+//#[derive(Debug)]
+//enum IpAddrKind {
+//    v4(String),
+//    v6(String),
 
+//}
+
+//fn main() {
+//    let home = IpAddrKind::v4(String::from("127.0.0.1"));
+//    let loopback = IpAddrKind::v6(String::from("::1"));
+//    println!("{:?}", home);
+//    println!("{:?}", loopback);
+//}
+
+//! Example 3
+struct Ipv4Addr {
+    address: String,
 }
 
-fn main() {
-    let home = IpAddrKind::v4(String::from("127.0.0.1"));
-    let loopback = IpAddrKind::v6(String::from("::1"));
-    println!("{:?}", home);
-    println!("{:?}", loopback);
+struct Ipv4Addr {
+    address: String,
 }
