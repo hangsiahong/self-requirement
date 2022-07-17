@@ -1,6 +1,10 @@
 // let write auto github push with no function, just closure, and std
 fn main() {
     use std::process::Command;
+    use std::env;
+
+    let args: Vec<String> = env::args().collect();
+    let message = &args[1];
 
     let autopush = |message: &str| {
         Command::new("git")
@@ -20,12 +24,11 @@ fn main() {
                 .arg("push")
                 .spawn()
                 .expect("failed to push");
-
     };
 
-    let message = "'test'";
-    let execute = autopush(message);
-    println!("{:?}", execute);
+    // let execute = autopush(message);
+    // println!("{:?}", execute);
+    autopush(message);
 
 
 }
