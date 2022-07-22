@@ -1,4 +1,4 @@
-//! Each action is encapsulated into a struct with trit Command
+//! Each action is encapsulated into a struct with trait Command
 
 use std::collections::HashMap;
 
