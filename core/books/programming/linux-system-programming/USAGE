@@ -1,0 +1,47 @@
+Usage and organization
+You can use this book in at least two ways:
+
+As a tutorial introduction to the Linux/UNIX programming interface. You can
+read the book linearly. Later chapters build on material presented in earlier
+chapters, with forward references minimized as far as possible.
+
+As a comprehensive reference to the Linux/UNIX programming interface. An
+extensive index and frequent cross-references allow topics to be read in ran-
+
+1. Background and concepts: history of UNIX, C, and Linux and overview of UNIX
+standards (Chapter 1); a programmer-oriented introduction to Linux and
+UNIX concepts (Chapter 2); and fundamental concepts for system program-
+ming on Linux and UNIX (Chapter 3).
+
+2. Fundamental features of the system programming interface: file I/O (Chapter 4 and
+Chapter 5); processes (Chapter 6); memory allocation (Chapter 7); users and
+groups (Chapter 8); process credentials (Chapter 9); time (Chapter 10); system
+limits and options (Chapter 11); and retrieving system and process information
+(Chapter 12).
+
+3. More advanced features of the system programming interface: file I/O buffering
+(Chapter 13); file systems (Chapter 14); file attributes (Chapter 15); extended
+attributes (Chapter 16); access control lists (Chapter 17); directories and links
+(Chapter 18); monitoring file events (Chapter 19); signals (Chapter 20 to Chap-
+ter 22); and timers (Chapter 23).
+
+4. Processes, programs, and threads: process creation, process termination, monitor-
+ing child processes, and executing programs (Chapter 24 to Chapter 28); and
+POSIX threads (Chapter 29 to Chapter 33).
+
+5. Advanced process and program topics: process groups, sessions, and job control
+(Chapter 34); process priorities and scheduling (Chapter 35); process
+resources (Chapter 36); daemons (Chapter 37); writing secure privileged pro-
+grams (Chapter 38); capabilities (Chapter 39); login accounting (Chapter 40);
+and shared libraries (Chapter 41 and Chapter 42).
+
+6. Interprocess communication (IPC): IPC overview (Chapter 43); pipes and FIFOs
+(Chapter 44); System V IPC—message queues, semaphores, and shared mem-
+ory (Chapter 45 to Chapter 48); memory mappings (Chapter 49); virtual memory
+operations (Chapter 50); POSIX IPC—message queues, semaphores, and shared
+memory (Chapeer 51 to Chapter 53); and file locking (Chapter 55)
+
+7. Sockets and network programming: IPC and network programming with sockets
+(Chapter 56 to Chapter 61).
+
+8. Advanced I/O topics: terminals (Chapter 62); alternative I/O models (Chapter 63);

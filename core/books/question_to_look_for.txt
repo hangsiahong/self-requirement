@@ -1,0 +1,43 @@
+About System Programming language:
+
+For example, developing a Web Server in Linux will also teach you
+the basics of common and important system programming concepts:
+- System calls: 
+* What are they?
+* How They work?
+* What is blocking?
+* How to handle erros?
+* Alway handles handle errors, Why wrapping?
+
+- Socket programming:
+* How to use them? I/O is done by system calls!
+* Why can't you use standard I/O?
+* Why is a buffer useful?
+* Why this buffer is destorying what i am trying to do?
+
+- Signal handlers:
+* What is a signal interupt?
+* Why can it cause an error on certain system?
+* Why are signal handler useful?
+* Why is this signal handler destroying everything i know?
+* What are sync-signal safe function?
+* What is reentrancy?
+
+- Multi-processing:
+* What is virtual memory?
+* What is a process context?
+* What is a switch-context?
+* What is IPC? Why do we need it?
+* Do we really need it?
+
+- Multi-threading:
+* Is it efficiency?
+* What is a thread-safe function?
+* What are shared variables, mutexes, semaphores, schedules buffers..?
+* How do i resign?
+
+- I/O Multiplexing:
+* What is granularity?
+* Why has the length of code tripled?
+* Why the server efficiency is going down instead of improving?
+* Why do we still need mutli-threading?

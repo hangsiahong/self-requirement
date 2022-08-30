@@ -1,0 +1,6 @@
+Theory: We want to download video as mp3 from youtube.
+Example: dmfyt --title "Arcade"
+Output: List of top 10 video to choose
+
+After choose which one to download we use public api that available to convert it and
+use wget or curl to download the music to the currect directory
